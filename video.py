@@ -9,7 +9,7 @@ import time
 
 def main():
     drone = tellopy.Tello()
-
+    print("TEDT")
     try:
         drone.connect()
         drone.wait_for_connection(60.0)
